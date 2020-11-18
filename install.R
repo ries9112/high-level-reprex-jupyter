@@ -1,4 +1,7 @@
 install.packages('pacman')
+install.packages('remotes')
+remotes::install_github("DavisVaughan/slider")
+install.packages('feasts')
 pacman::p_load('pins', 'skimr', 'DT', 'httr', 'jsonlite', # Data Exploration 
                'tidyverse', 'tsibble', 'anytime', # Data Prep
                'ggTimeSeries', 'gifski', 'av', 'magick', 'ggthemes', 'plotly', # Visualization
